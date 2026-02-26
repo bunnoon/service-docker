@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'apps.account',
 ]
 
 MIDDLEWARE = [
@@ -100,6 +101,12 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+# The model to use to represent a User
+# https://docs.djangoproject.com/en/6.0/ref/settings/#auth-user-model
+
+AUTH_USER_MODEL = 'account.Customer'
 
 
 # Cross-Origin Resource Sharing (CORS)
