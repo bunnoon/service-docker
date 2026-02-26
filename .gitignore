@@ -10,7 +10,6 @@ __pycache__/
 # Django-specific files
 /public
 /var
-*.log
 
 # Database files
 db.sqlite3
