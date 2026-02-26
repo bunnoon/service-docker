@@ -132,4 +132,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Directory path collect static files for deployment
+# https://docs.djangoproject.com/en/6.0/ref/settings/#static-root
+
 STATIC_ROOT = BASE_DIR / 'public'
